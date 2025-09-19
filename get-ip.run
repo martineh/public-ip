@@ -1,3 +1,7 @@
 echo $(date) > README.txt
 curl ifconfig.me >> README.txt
 echo "" >> README.txt
+
+git add .
+git commit -am "X"
+git push origin main
