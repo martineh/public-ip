@@ -1,7 +1,11 @@
-echo $(date) > README.txt
-curl ifconfig.me >> README.txt
-echo "" >> README.txt
+#!/bin/bash
 
-git add .
-git commit -am "X"
-git push origin main
+REPO_DIR="$HOME/public-ip"
+
+echo $(date)      > "$REPO_DIR/README.txt"
+curl ifconfig.me >> "$REPO_DIR/README.txt"
+echo ""          >> "$REPO_DIR/README.txt"
+
+git -C "$REPO_DIR" add .
+git -C "$REPO_DIR" commit -am "X"
+git -C "$REPO_DIR" push origin main
