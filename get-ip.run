@@ -1,2 +1,3 @@
-curl ifconfig.me > README.txt
+echo $(date) > README.txt
+curl ifconfig.me >> README.txt
 echo "" >> README.txt
