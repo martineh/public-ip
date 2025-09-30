@@ -4,6 +4,7 @@ REPO_DIR="$HOME/public-ip"
 
 echo $(date)      > "$REPO_DIR/README.txt"
 curl ifconfig.me >> "$REPO_DIR/README.txt"
+echo "(remember, ssh port 2022 redirection)"  >> "$REPO_DIR/README.txt"
 echo ""          >> "$REPO_DIR/README.txt"
 
 git -C "$REPO_DIR" add .
