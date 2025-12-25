@@ -1,3 +1,3 @@
-sáb 20 dic 2025 19:57:27 CET
-150.214.127.78 (remember, ssh port 2022 redirection)
+jue 25 dic 2025 14:27:09 CET
+80.30.228.82 (remember, ssh port 2022 redirection)
 
